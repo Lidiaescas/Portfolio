@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lidia | Desarrolladora de Aplicaciones Multiplataforma (DAM)</title>
+    <meta name="description" content="Portfolio profesional de Lidia, recién graduada en Desarrollo de Aplicaciones Multiplataforma (DAM). Especializada en Java, Python, JavaScript y desarrollo móvil.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script type="module" crossorigin src="/assets/index-BjK7bPjK.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-BcGnVm87.css">
+</head>
+<body>
+    <!-- Background grid & ambient glow blobs -->
+    <div class="glow-bg">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+    </div>
+
+    <!-- Navigation Header -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <span class="logo-tag">&lt;</span>Lidia<span class="logo-tag">/&gt;</span>
+            </a>
+            <nav class="nav-menu" id="nav-menu">
+                <ul>
+                    <li><a href="#about" class="nav-link">Sobre Mí</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#experience" class="nav-link">Experiencia</a></li>
+                    <li><a href="#projects" class="nav-link">Proyectos</a></li>
+                    <li><a href="#contact" class="nav-link nav-btn">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="nav-actions">
+                <button id="theme-toggle" class="theme-toggle-btn" aria-label="Cambiar tema">
+                    <!-- Sun Icon (shown in dark theme) -->
+                    <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>
+                    <!-- Moon Icon (shown in light theme) -->
+                    <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+                </button>
+                <button class="mobile-menu-toggle" id="mobile-toggle" aria-label="Menu principal">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section" id="hero">
+            <div class="section-container hero-grid">
+                <div class="hero-content">
+                    <div class="hero-badge reveal">
+                        <span class="pulse-dot"></span>Disponible para Incorporación
+                    </div>
+                    <h1 class="hero-title reveal">
+                        Hola, soy <span class="gradient-text">Lidia</span>
+                    </h1>
+                    <h2 class="hero-subtitle reveal">
+                        Desarrolladora de <span id="typed-text" class="typed-text"></span><span class="typed-cursor">|</span>
+                    </h2>
+                    <p class="hero-desc reveal">
+                        Recién graduada en <strong>Desarrollo de Aplicaciones Multiplataforma (DAM)</strong>. Apasionada por construir software robusto, escalable y limpio. Abierta a nuevos retos tecnológicos.
+                    </p>
+                    <div class="hero-cta reveal">
+                        <a href="#contact" class="btn btn-primary">
+                            <span>Contactar</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                        </a>
+                        <a href="#projects" class="btn btn-secondary">
+                            <span>Ver Proyectos</span>
+                        </a>
+                    </div>
+                    
+                    <!-- Social Bar -->
+                    <div class="hero-socials reveal">
+                        <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="GitHub">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+                        </a>
+                        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="LinkedIn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9" rx="1"/><circle cx="4" cy="4" r="2"/></svg>
+                        </a>
+                        <a href="mailto:lidia.castellanos15@gmail.com" class="social-icon-btn" aria-label="Email">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Profile Photo Area / Custom Avatar -->
+                <div class="hero-image-area reveal">
+                    <div class="profile-card">
+                        <div class="profile-glow"></div>
+                        <div class="profile-image-container">
+                            <!-- Instruction comment for Lidia:
+                                 Replace the SVG below with:
+                                 <img src="profile.jpg" alt="Lidia" class="profile-img">
+                            -->
+                            <div class="avatar-placeholder">
+                                <svg class="avatar-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+                                    <defs>
+                                        <linearGradient id="avatar-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                            <stop offset="0%" stop-color="#6366f1" />
+                                            <stop offset="100%" stop-color="#14b8a6" />
+                                        </linearGradient>
+                                        <linearGradient id="laptop-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                            <stop offset="0%" stop-color="#1e293b" />
+                                            <stop offset="100%" stop-color="#0f172a" />
+                                        </linearGradient>
+                                    </defs>
+                                    <!-- Circles background -->
+                                    <circle cx="100" cy="100" r="90" fill="url(#avatar-grad)" opacity="0.15" />
+                                    <circle cx="100" cy="100" r="75" fill="none" stroke="url(#avatar-grad)" stroke-width="1" stroke-dasharray="4,4" />
+                                    
+                                    <!-- Girl Avatar Character (Simplified Vector Web Design) -->
+                                    <!-- Hair back -->
+                                    <path d="M 60 140 C 45 100, 45 60, 100 60 C 155 60, 155 100, 140 140 Z" fill="#312e81" />
+                                    
+                                    <!-- Neck -->
+                                    <rect x="93" y="112" width="14" height="20" rx="7" fill="#fbcfe8" />
+                                    
+                                    <!-- Face -->
+                                    <circle cx="100" cy="95" r="26" fill="#fbcfe8" />
+                                    
+                                    <!-- Hair front / bangs -->
+                                    <path d="M 74 95 C 74 72, 126 72, 126 95 C 126 78, 74 78, 74 95 Z" fill="#4338ca" />
+                                    <path d="M 74 90 C 85 80, 95 85, 100 90 C 105 85, 115 80, 126 90 C 120 70, 80 70, 74 90 Z" fill="#312e81" />
+                                    
+                                    <!-- Glasses -->
+                                    <circle cx="91" cy="96" r="8" fill="none" stroke="#0f172a" stroke-width="2.5" />
+                                    <circle cx="109" cy="96" r="8" fill="none" stroke="#0f172a" stroke-width="2.5" />
+                                    <line x1="99" y1="96" x2="101" y2="96" stroke="#0f172a" stroke-width="2.5" />
+                                    <path d="M 80 96 C 81 92, 83 92, 83 96" fill="none" stroke="#0f172a" stroke-width="2" />
+                                    <path d="M 120 96 C 119 92, 117 92, 117 96" fill="none" stroke="#0f172a" stroke-width="2" />
+                                    
+                                    <!-- Smile -->
+                                    <path d="M 96 106 Q 100 110, 104 106" fill="none" stroke="#e11d48" stroke-width="2.5" stroke-linecap="round" />
+                                    
+                                    <!-- Clothes / Shoulders -->
+                                    <path d="M 65 145 C 65 125, 135 125, 135 145 Z" fill="#6366f1" />
+                                    <path d="M 85 125 L 100 135 L 115 125 Z" fill="#fbcfe8" /> <!-- V-neck -->
+                                    
+                                    <!-- Code screen/laptop overlaying -->
+                                    <path d="M 55 130 H 145 V 170 H 55 Z" fill="url(#laptop-grad)" stroke="#475569" stroke-width="3" rx="4" />
+                                    <rect x="50" y="166" width="100" height="7" rx="3.5" fill="#64748b" />
+                                    <circle cx="100" cy="169" r="1.5" fill="#94a3b8" />
+                                    
+                                    <!-- Code symbols on small screen -->
+                                    <text x="65" y="145" fill="#14b8a6" font-family="monospace" font-size="10" font-weight="bold">&lt;/&gt;</text>
+                                    <rect x="65" y="152" width="40" height="3" rx="1.5" fill="#f43f5e" />
+                                    <rect x="65" y="159" width="60" height="3" rx="1.5" fill="#6366f1" />
+                                    <rect x="110" y="152" width="20" height="3" rx="1.5" fill="#e2e8f0" />
+                                </svg>
+                                <span class="photo-hint">Añade tu foto como <code>profile.jpg</code></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Recruiter Quick Facts (Under 30s Scan) -->
+            <div class="quick-facts-bar">
+                <div class="section-container grid-4">
+                    <div class="fact-card">
+                        <div class="fact-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z"/><path d="M6 6h10"/><path d="M6 10h10"/></svg>
+                        </div>
+                        <div class="fact-info">
+                            <h3>Formación</h3>
+                            <p>Téc. Superior DAM</p>
+                        </div>
+                    </div>
+                    <div class="fact-card">
+                        <div class="fact-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m18 16 4-4-4-4"/><path d="m6 8-4 4 4 4"/><path d="m14.5 4-5 16"/></svg>
+                        </div>
+                        <div class="fact-info">
+                            <h3>Stack Foco</h3>
+                            <p>Java, Python, JS</p>
+                        </div>
+                    </div>
+                    <div class="fact-card">
+                        <div class="fact-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>
+                        </div>
+                        <div class="fact-info">
+                            <h3>Inglés</h3>
+                            <p>B2 actual (B1 Cambr.)</p>
+                        </div>
+                    </div>
+                    <div class="fact-card">
+                        <div class="fact-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                        </div>
+                        <div class="fact-info">
+                            <h3>Movilidad</h3>
+                            <p>Carnet B, Viajar/Mudanza</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section class="about-section section-padding" id="about">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2 class="section-title">Sobre Mí</h2>
+                    <div class="underline"></div>
+                </div>
+                <div class="about-grid">
+                    <div class="about-text">
+                        <p class="lead-text">
+                            Soy una profesional entusiasta del software, recién graduada en el ciclo superior de **Desarrollo de Aplicaciones Multiplataforma (DAM)**. 
+                        </p>
+                        <p>
+                            Mi motivación radica en aportar soluciones eficientes en el ámbito del desarrollo de software. Me considero una persona abierta, flexible y proactiva, lista para explorar y especializarme en distintas áreas del sector tecnológico, adaptándome a las necesidades del equipo de manera ágil.
+                        </p>
+                        <p>
+                            Tengo experiencia práctica desarrollando aplicaciones con Java, Python y JavaScript, además de bases de datos relacionales y no relacionales. Me apasiona el diseño de interfaces limpias, el control de calidad (QA) y la optimización de procesos mediante desarrollo de software.
+                        </p>
+                        
+                        <!-- Soft Skills tags -->
+                        <div class="soft-skills-container">
+                            <h4 class="sub-title-skills">Habilidades Blandas:</h4>
+                            <div class="tags-group">
+                                <span class="tag-badge">Trabajo en Equipo</span>
+                                <span class="tag-badge">Atención al Público</span>
+                                <span class="tag-badge">Entornos Dinámicos</span>
+                                <span class="tag-badge">Adaptabilidad Internacional</span>
+                                <span class="tag-badge">Resolución de Problemas</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-details">
+                        <div class="info-card">
+                            <h3>Información Clave</h3>
+                            <div class="info-list">
+                                <div class="info-item">
+                                    <span class="info-label">Formación</span>
+                                    <span class="info-value">T.S. DAM (FOC, 2024 - 2026)</span>
+                                </div>
+                                <div class="info-item">
+                                    <span class="info-label">Residencia</span>
+                                    <span class="info-value">España (Movilidad plena/geográfica)</span>
+                                </div>
+                                <div class="info-item">
+                                    <span class="info-label">Vehículo</span>
+                                    <span class="info-value">Carnet B y coche propio</span>
+                                </div>
+                                <div class="info-item">
+                                    <span class="info-label">Idiomas</span>
+                                    <span class="info-value">Español (Nativo) · Inglés (B2 actual)</span>
+                                </div>
+                            </div>
+                            <div class="about-actions">
+                                <a href="mailto:lidia.castellanos15@gmail.com" class="btn btn-secondary btn-full">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                                    <span>Escríbeme por correo</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills-section section-padding" id="skills">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2 class="section-title">Habilidades y Tecnologías</h2>
+                    <div class="underline"></div>
+                </div>
+                
+                <!-- Filter buttons -->
+                <div class="skills-filters">
+                    <button class="filter-btn active" data-filter="all">Todas</button>
+                    <button class="filter-btn" data-filter="languages">Lenguajes</button>
+                    <button class="filter-btn" data-filter="web">Web</button>
+                    <button class="filter-btn" data-filter="databases">Bases de Datos</button>
+                    <button class="filter-btn" data-filter="mobile">Móvil & Otros</button>
+                </div>
+
+                <div class="skills-grid" id="skills-container">
+                    <!-- Java -->
+                    <div class="skill-card-item" data-category="languages">
+                        <div class="skill-header">
+                            <span class="skill-name">Java</span>
+                            <span class="skill-level">Medio</span>
+                        </div>
+                        <div class="skill-bar-bg">
+                            <div class="skill-bar-fill" style="width: 70%;"></div>
+                        </div>
+                        <span class="skill-cert">Cimientos/Fundamentos - Oracle Academy</span>
+                    </div>
+                    <!-- Python -->
+                    <div class="skill-card-item" data-category="languages">
+                        <div class="skill-header">
+                            <span class="skill-name">Python</span>
+                            <span class="skill-level">Medio</span>
+                        </div>
+                        <div class="skill-bar-bg">
+                            <div class="skill-bar-fill" style="width: 65%;"></div>
+                        </div>
+                        <span class="skill-cert">Python Essentials 1 & 2 - Cisco</span>
+                    </div>
+                    <!-- JavaScript -->
+                    <div class="skill-card-item" data-category="languages">
+                        <div class="skill-header">
+                            <span class="skill-name">JavaScript</span>
+                            <span class="skill-level">Medio</span>
+                        </div>
+                        <div class="skill-bar-bg">
+                            <div class="skill-bar-fill" style="width: 60%;"></div>
+                        </div>
+                        <span class="skill-cert">JS Essentials 1 - Cisco (En Progreso)</span>
+                    </div>
+                    <!-- HTML/CSS -->
+                    <div class="skill-card-item" data-category="web">
+                        <div class="skill-header">
+                            <span class="skill-name">HTML & CSS</span>
+                            <span class="skill-level">Medio</span>
+                        </div>
+                        <div class="skill-bar-bg">
+                            <div class="skill-bar-fill" style="width: 75%;"></div>
+                        </div>
+                        <span class="skill-cert">Desarrollo Web Responsive</span>
+                    </div>
+                    <!-- XML -->
+                    <div class="skill-card-item" data-category="web">
+                        <div class="skill-header">
+                            <span class="skill-name">XML</span>
+                            <span class="skill-level">Medio</span>
+                        </div>
+                        <div class="skill-bar-bg">
+                            <div class="skill-bar-fill" style="width: 70%;"></div>
+                        </div>
+                        <span class="skill-cert">Estructuración de datos e interfaces</span>
+                    </div>
+                    <!-- MySQL -->
+                    <div class="skill-card-item" data-category="databases">
+                        <div class="skill-header">
+                            <span class="skill-name">MySQL</span>
+                            <span class="skill-level">Medio</span>
+                        </div>
+                        <div class="skill-bar-bg">
+                            <div class="skill-bar-fill" style="width: 70%;"></div>
+                        </div>
+                        <span class="skill-cert">Bases de datos Relacionales</span>
+                    </div>
+                    <!-- Oracle -->
+                    <div class="skill-card-item" data-category="databases">
+                        <div class="skill-header">
+                            <span class="skill-name">Oracle Database</span>
+                            <span class="skill-level">Medio</span>
+                        </div>
+                        <div class="skill-bar-bg">
+                            <div class="skill-bar-fill" style="width: 65%;"></div>
+                        </div>
+                        <span class="skill-cert">Fundamentos - Oracle Academy</span>
+                    </div>
+                    <!-- MongoDB -->
+                    <div class="skill-card-item" data-category="databases">
+                        <div class="skill-header">
+                            <span class="skill-name">MongoDB</span>
+                            <span class="skill-level">Medio</span>
+                        </div>
+                        <div class="skill-bar-bg">
+                            <div class="skill-bar-fill" style="width: 60%;"></div>
+                        </div>
+                        <span class="skill-cert">Bases de datos NoSQL</span>
+                    </div>
+                    <!-- eXist-db -->
+                    <div class="skill-card-item" data-category="databases">
+                        <div class="skill-header">
+                            <span class="skill-name">eXist-db</span>
+                            <span class="skill-level">Medio</span>
+                        </div>
+                        <div class="skill-bar-bg">
+                            <div class="skill-bar-fill" style="width: 55%;"></div>
+                        </div>
+                        <span class="skill-cert">Bases de datos XML</span>
+                    </div>
+                    <!-- Android Studio -->
+                    <div class="skill-card-item" data-category="mobile">
+                        <div class="skill-header">
+                            <span class="skill-name">Android Studio</span>
+                            <span class="skill-level">Medio</span>
+                        </div>
+                        <div class="skill-bar-bg">
+                            <div class="skill-bar-fill" style="width: 70%;"></div>
+                        </div>
+                        <span class="skill-cert">Desarrollo Móvil Multiplataforma</span>
+                    </div>
+                    <!-- Unity -->
+                    <div class="skill-card-item" data-category="mobile">
+                        <div class="skill-header">
+                            <span class="skill-name">Unity</span>
+                            <span class="skill-level">Medio</span>
+                        </div>
+                        <div class="skill-bar-bg">
+                            <div class="skill-bar-fill" style="width: 55%;"></div>
+                        </div>
+                        <span class="skill-cert">Desarrollo Multimedia e Interfaces</span>
+                    </div>
+                    <!-- Docker & Kubernetes -->
+                    <div class="skill-card-item" data-category="mobile">
+                        <div class="skill-header">
+                            <span class="skill-name">Docker & Kubernetes</span>
+                            <span class="skill-level">Iniciación</span>
+                        </div>
+                        <div class="skill-bar-bg">
+                            <div class="skill-bar-fill" style="width: 30%;"></div>
+                        </div>
+                        <span class="skill-cert">Microservicios (Udemy - En Progreso)</span>
+                    </div>
+                </div>
+
+                <!-- Extra Competences / Methodologies -->
+                <div class="extra-skills">
+                    <h3 class="extra-skills-title">Entornos y Metodologías</h3>
+                    <div class="extra-skills-grid">
+                        <div class="extra-skill-badge">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/><path d="m9 12 2 2 4-4"/></svg>
+                            Depuración y QA
+                        </div>
+                        <div class="extra-skill-badge">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/><path d="m9 12 2 2 4-4"/></svg>
+                            Desarrollo de Interfaces
+                        </div>
+                        <div class="extra-skill-badge">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/><path d="m9 12 2 2 4-4"/></svg>
+                            Sistemas de Gestión (ERP)
+                        </div>
+                        <div class="extra-skill-badge">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/><path d="m9 12 2 2 4-4"/></svg>
+                            Despliegue y Arquitectura
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience & Education Timeline Section -->
+        <section class="experience-section section-padding" id="experience">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2 class="section-title">Experiencia y Formación</h2>
+                    <div class="underline"></div>
+                </div>
+
+                <div class="timeline-grid">
+                    <!-- Left: Experience -->
+                    <div class="timeline-col">
+                        <h3 class="col-title">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="14" x="2" y="7" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+                            Experiencia Profesional
+                        </h3>
+                        <div class="timeline">
+                            <!-- Aurea Soluciones Dinámicas -->
+                            <div class="timeline-item">
+                                <span class="timeline-date">2026</span>
+                                <h4 class="timeline-role">Prácticas en Desarrollo ERP</h4>
+                                <span class="timeline-company">Aurea Soluciones Dinámicas</span>
+                                <p class="timeline-desc">
+                                    Desarrollo y parametrización en el ERP <strong>Microsoft Dynamics Business Central</strong>. Aprendizaje e integración en flujos de trabajo de sistemas de gestión empresarial, colaborando activamente en la adaptación del software a necesidades del negocio.
+                                </p>
+                            </div>
+                            <!-- Experiencia Diversa -->
+                            <div class="timeline-item">
+                                <span class="timeline-date">Antes de 2024</span>
+                                <h4 class="timeline-role">Experiencia Laboral Diversa</h4>
+                                <span class="timeline-company">Varios sectores (Educación, Marketing, Teleoperaciones)</span>
+                                <p class="timeline-desc">
+                                    Desarrollo de competencias clave en puestos de atención al público, trabajo en equipo en entornos exigentes y dinámicos a nivel nacional y en el extranjero:
+                                </p>
+                                <ul class="timeline-bullets">
+                                    <li>Educadora ambiental</li>
+                                    <li>Teleoperadora</li>
+                                    <li>Asistente de marketing</li>
+                                    <li>Socorrista y ayudante de cocina</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right: Education & Certifications -->
+                    <div class="timeline-col">
+                        <h3 class="col-title">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 2 2 3 6 3s6-1 6-3v-5"/></svg>
+                            Formación Académica
+                        </h3>
+                        <div class="timeline">
+                            <!-- DAM -->
+                            <div class="timeline-item">
+                                <span class="timeline-date">2024 - 2026</span>
+                                <h4 class="timeline-role">Técnico Superior en DAM</h4>
+                                <span class="timeline-company">FOC (Formación Online Profesional)</span>
+                                <p class="timeline-desc">
+                                    Ciclo formativo enfocado en el desarrollo de aplicaciones multiplataforma. Formación práctica en lenguajes estructurados y orientados a objetos, desarrollo móvil (Android), diseño de interfaces de usuario y bases de datos relacionales y no relacionales.
+                                </p>
+                            </div>
+                            <!-- Oracle Academy & Cisco -->
+                            <div class="timeline-item">
+                                <span class="timeline-date">Formación Adicional</span>
+                                <h4 class="timeline-role">Certificaciones de Academia</h4>
+                                <span class="timeline-company">Oracle, Cisco, Udemy</span>
+                                <ul class="cert-list">
+                                    <li><strong>Cimientos y Fundamentos de Java</strong> · Oracle Academy</li>
+                                    <li><strong>Fundamentos de Bases de Datos</strong> · Oracle Academy</li>
+                                    <li><strong>Python Essentials 1 & 2</strong> · Cisco Networking Academy</li>
+                                    <li><strong>JavaScript Essentials 1</strong> · Cisco (En progreso)</li>
+                                    <li><strong>Microservicios (Docker & Kubernetes)</strong> · Udemy (En progreso)</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects-section section-padding" id="projects">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2 class="section-title">Proyectos Destacados</h2>
+                    <div class="underline"></div>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Project 1: QTengo -->
+                    <div class="project-card">
+                        <div class="project-image-box">
+                            <!-- Dynamic illustration/icon for stock app -->
+                            <div class="project-img-placeholder stock-app-bg">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect width="8" height="18" x="3" y="3" rx="1"/><rect width="8" height="10" x="13" y="3" rx="1"/><rect width="8" height="6" x="13" y="15" rx="1"/></svg>
+                            </div>
+                            <span class="project-badge">TFG · Android</span>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">QTengo</h3>
+                            <p class="project-desc">
+                                Aplicación móvil de gestión de stock desarrollada en Android Studio. Diseñada para facilitar el control de inventario en pequeñas y medianas empresas de forma ágil y autónoma.
+                            </p>
+                            <div class="project-techs">
+                                <span>Android</span>
+                                <span>Java</span>
+                                <span>XML</span>
+                                <span>SQLite</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="proj-link">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+                                    Ver Código (GitHub)
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2: MomentumSpace -->
+                    <div class="project-card">
+                        <div class="project-image-box">
+                            <!-- Dynamic illustration/icon for web platform -->
+                            <div class="project-img-placeholder web-app-bg">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="14" x="2" y="3" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+                            </div>
+                            <span class="project-badge">Plataforma Web</span>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">MomentumSpace</h3>
+                            <p class="project-desc">
+                                Participación activa en el desarrollo de una plataforma web completa de servicios y portafolio de proyectos. Abarca desde la arquitectura y diseño de layouts hasta el despliegue funcional en producción.
+                            </p>
+                            <div class="project-techs">
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>JavaScript</span>
+                                <span>Arquitectura Web</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="http://www.momentumspace.cl" target="_blank" rel="noopener noreferrer" class="proj-link web-link">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+                                    Visitar Sitio Web
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project Placeholder -->
+                    <div class="project-card placeholder-card">
+                        <div class="project-content">
+                            <div class="plus-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M12 5v14"/></svg>
+                            </div>
+                            <h3 class="placeholder-title">[Añadir nuevo proyecto]</h3>
+                            <p class="placeholder-text">Espacio reservado para futuros proyectos móviles, web o integraciones de ERP en desarrollo.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section section-padding" id="contact">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2 class="section-title">Contacto</h2>
+                    <div class="underline"></div>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="contact-info-panel">
+                        <h3>¿Hablamos?</h3>
+                        <p class="contact-lead">
+                            Estoy buscando mi primera oportunidad a tiempo completo como desarrolladora junior. Si te gusta mi perfil para tu equipo o proyecto, ¡no dudes en contactarme!
+                        </p>
+                        
+                        <div class="contact-methods">
+                            <!-- Email -->
+                            <div class="contact-item">
+                                <div class="contact-icon-box">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                                </div>
+                                <div class="contact-details-text">
+                                    <span>Email</span>
+                                    <div class="email-copy-wrapper">
+                                        <a href="mailto:lidia.castellanos15@gmail.com" class="contact-link" id="email-link">lidia.castellanos15@gmail.com</a>
+                                        <button class="copy-btn" id="copy-email-btn" title="Copiar email al portapapeles">
+                                            <svg class="copy-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="14" height="14" x="8" y="8" rx="2" ry="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/></svg>
+                                            <span class="copy-tooltip" id="copy-tooltip">Copiar</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- LinkedIn -->
+                            <div class="contact-item">
+                                <div class="contact-icon-box">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9" rx="1"/><circle cx="4" cy="4" r="2"/></svg>
+                                </div>
+                                <div class="contact-details-text">
+                                    <span>LinkedIn</span>
+                                    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="contact-link">Conectar en LinkedIn</a>
+                                </div>
+                            </div>
+
+                            <!-- GitHub -->
+                            <div class="contact-item">
+                                <div class="contact-icon-box">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+                                </div>
+                                <div class="contact-details-text">
+                                    <span>GitHub</span>
+                                    <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="contact-link">Explorar Repositorio</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form Card -->
+                    <div class="contact-form-card">
+                        <div class="form-header">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                            <span class="terminal-title">Enviar Mensaje</span>
+                        </div>
+                        <form id="contact-form" class="terminal-form" onsubmit="event.preventDefault(); alert('¡Gracias por tu mensaje! (Esto es una simulación)');">
+                            <div class="form-group">
+                                <label for="name">Nombre</label>
+                                <input type="text" id="name" required placeholder="Escribe tu nombre...">
+                            </div>
+                            <div class="form-group">
+                                <label for="form-email">Email</label>
+                                <input type="email" id="form-email" required placeholder="Escribe tu correo...">
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Mensaje</label>
+                                <textarea id="message" required rows="4" placeholder="¿En qué te puedo ayudar?"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-full">
+                                <span>Enviar Consulta</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="section-container footer-content">
+            <p>&copy; 2026 Lidia. Diseñado con pasión y optimizado para reclutadores.</p>
+            <div class="footer-links">
+                <a href="#hero">Inicio</a>
+                <a href="#about">Sobre Mí</a>
+                <a href="#skills">Habilidades</a>
+                <a href="#experience">Experiencia</a>
+                <a href="#projects">Proyectos</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
