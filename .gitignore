@@ -1,0 +1,17 @@
+# dependency directories
+node_modules/
+
+# build directory
+dist/
+
+# local env files
+.env*.local
+
+# editor directories
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
