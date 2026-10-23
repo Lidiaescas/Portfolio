@@ -1161,6 +1161,10 @@ button {
     background: linear-gradient(135deg, rgba(20, 184, 166, 0.1) 0%, rgba(99, 102, 241, 0.05) 100%);
 }
 
+.influencer-app-bg {
+    background: linear-gradient(135deg, rgba(244, 63, 94, 0.1) 0%, rgba(99, 102, 241, 0.08) 100%);
+}
+
 .project-badge {
     position: absolute;
     top: 16px;
