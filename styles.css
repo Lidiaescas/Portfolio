@@ -334,6 +334,7 @@ button {
     color: var(--text-primary);
     display: flex;
     align-items: center;
+    white-space: nowrap;
 }
 
 .logo-tag {
@@ -1630,19 +1631,25 @@ button {
     }
 
     .nav-menu {
-        position: fixed;
-        top: var(--nav-height);
+        position: absolute;
+        top: 100%;
         left: 0;
         right: 0;
         background-color: var(--bg-secondary);
         border-bottom: 1px solid var(--border-color);
         padding: 24px;
-        transform: translateY(-120%);
-        transition: transform var(--transition-normal);
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+        transform: translateY(-12px);
+        transition: opacity var(--transition-normal), transform var(--transition-normal), visibility var(--transition-normal);
         z-index: 999;
     }
 
     .nav-menu.open {
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
         transform: translateY(0);
         box-shadow: var(--shadow-md);
     }
@@ -1703,6 +1710,14 @@ button {
 }
 
 @media (max-width: 600px) {
+    .nav-container {
+        padding: 0 16px;
+    }
+
+    .nav-logo {
+        font-size: 1.25rem;
+    }
+
     .section-title {
         font-size: 2rem;
     }
