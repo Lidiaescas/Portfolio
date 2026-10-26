@@ -1374,10 +1374,20 @@ button {
    CONTACT SECTION
    ========================================================================== */
 .contact-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 48px;
-    align-items: start;
+    display: flex;
+    justify-content: center;
+    max-width: 680px;
+    margin: 0 auto;
+}
+
+.contact-info-panel {
+    width: 100%;
+    text-align: center;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-lg);
+    padding: 40px;
+    box-shadow: var(--shadow-md);
 }
 
 .contact-info-panel h3 {
@@ -1398,6 +1408,9 @@ button {
     display: flex;
     flex-direction: column;
     gap: 24px;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
 }
 
 .contact-item {
