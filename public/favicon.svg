@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#0b0f19" />
+    </linearGradient>
+    <linearGradient id="lGrad" x1="14" y1="12" x2="50" y2="52" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#6366f1" />
+      <stop offset="55%" stop-color="#4f46e5" />
+      <stop offset="100%" stop-color="#14b8a6" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.5" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  <!-- Rounded Dark Badge -->
+  <rect x="2" y="2" width="60" height="60" rx="16" fill="url(#bgGrad)" stroke="url(#lGrad)" stroke-width="2.5" />
+  <!-- Subtle inner code brackets accent -->
+  <path d="M14 23L8 32L14 41" stroke="#6366f1" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity="0.55" />
+  <path d="M50 23L56 32L50 41" stroke="#14b8a6" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity="0.55" />
+  <!-- Stylized Bold 'L' -->
+  <path d="M23 16C23 14.3431 24.3431 13 26 13H29C30.6569 13 32 14.3431 32 16V41H43C44.6569 41 46 42.3431 46 44V46C46 47.6569 44.6569 49 43 49H26C24.3431 49 23 47.6569 23 46V16Z" fill="url(#lGrad)" filter="url(#glow)" />
+  <!-- Accent dot -->
+  <circle cx="43.5" cy="34.5" r="3.5" fill="#14b8a6" />
+</svg>

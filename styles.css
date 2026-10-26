@@ -585,32 +585,43 @@ button {
 
 .profile-card {
     position: relative;
-    width: 260px;
-    height: 260px;
-    border-radius: var(--radius-lg);
-    padding: 8px;
-    background: var(--border-color);
+    width: 310px;
+    height: 310px;
+    border-radius: 58% 42% 48% 52% / 46% 54% 46% 54%;
+    padding: 4px;
+    background: var(--accent-gradient);
+    animation: morphDrop 8s ease-in-out infinite;
+    box-shadow: 0 20px 50px rgba(99, 102, 241, 0.28);
+}
+
+@keyframes morphDrop {
+    0%, 100% {
+        border-radius: 58% 42% 48% 52% / 46% 54% 46% 54%;
+    }
+    50% {
+        border-radius: 44% 56% 55% 45% / 54% 44% 56% 46%;
+    }
 }
 
 .profile-glow {
     position: absolute;
-    top: -12px;
-    left: -12px;
-    right: -12px;
-    bottom: -12px;
+    top: -16px;
+    left: -16px;
+    right: -16px;
+    bottom: -16px;
     background: var(--accent-gradient);
-    border-radius: var(--radius-lg);
+    border-radius: inherit;
     z-index: -1;
-    opacity: 0.35;
-    filter: blur(15px);
+    opacity: 0.45;
+    filter: blur(22px);
 }
 
 .profile-image-container {
     width: 100%;
     height: 100%;
-    border-radius: calc(var(--radius-lg) - 4px);
+    border-radius: inherit;
     overflow: hidden;
-    background-color: var(--bg-secondary);
+    background-color: #141c2e;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1742,8 +1753,8 @@ button {
     }
 
     .profile-card {
-        width: 220px;
-        height: 220px;
+        width: 250px;
+        height: 250px;
     }
 
     .fact-card {
