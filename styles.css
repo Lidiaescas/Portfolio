@@ -1604,7 +1604,9 @@ button {
 
 .footer-links {
     display: flex;
-    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px 24px;
 }
 
 .footer-links a {
@@ -1765,6 +1767,10 @@ button {
 
     .info-card {
         padding: 24px;
+    }
+
+    .footer-links {
+        gap: 10px 16px;
     }
 }
 
